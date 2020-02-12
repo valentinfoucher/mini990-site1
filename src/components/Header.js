@@ -6,7 +6,7 @@ const Header = props => (
     <div className="content">
       <div className="inner">
         <h1>MINI 990 Valentin Foucher</h1>
-        <p></p>
+        <p>On repart pour un tour</p>
       </div>
     </div>
     <nav>
