@@ -3,6 +3,9 @@ module.exports = {
     title: 'Mini 990 Valentin Foucher',
     author: 'Valentin Foucher',
     description: 'A Gatsby.js V2 Starter based on Dimension by HTML5 UP',
+    titleTemplate: 'Mini 990 Valentin Foucher',
+    url: 'www.mini990valentinfoucher.netlify.com',
+    image: 'src/images/logo.png',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
