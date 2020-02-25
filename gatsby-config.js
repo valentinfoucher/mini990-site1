@@ -50,9 +50,7 @@ module.exports = {
     },
     {
       resolve: `gatsby-plugin-sitemap`,
-      options: {
-        exclude: [`/`],
-      },
+      
     },
     'gatsby-plugin-sass',
   ],
