@@ -1,8 +1,15 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import spinaker from '../images/spinaker.jpg'
-import dolphin from '../images/dolphin.jpg'
-import val1 from '../images/val1.jpg'
+import vector1 from '../images/LeBateau/vector1.jpg'
+import val1 from '../images/skipper/val1.jpg'
+import val2 from '../images/skipper/val2.jpg'
+import val3 from '../images/skipper/val3.jpg'
+import projet1 from '../images/LeProjet/projet1.jpg'
+import projet2 from '../images/LeProjet/projet2.jpg'
+const ImagesVal = [val1, val2, val3]
+const ImagesProjet = [projet1, projet2]
+const ImagesVector = [vector1]
 
 class Main extends React.Component {
   render() {
@@ -22,22 +29,27 @@ class Main extends React.Component {
         style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}
       >
         <article
-          id="intro"
-          className={`${this.props.article === 'intro' ? 'active' : ''} ${
+          id="Le projet"
+          className={`${this.props.article === 'Le projet' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
-            }`}
+          }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Intro</h2>
+          <h2 className="major">Projet</h2>
           <span className="image main">
-            <img src={spinaker} alt="" />
+            <img
+              src={
+                ImagesProjet[Math.floor(Math.random() * ImagesProjet.length)]
+              }
+              alt=""
+            />
           </span>
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
+            Aenean COUCOU, ac varius enim ullamcorper eu. Proin aliquam
+            facilisis ante interdum congue. Integer mollis, nisl amet convallis,
+            porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus
+            nisi nec lacinia. Nam maximus erat id euismod egestas. By the way,
+            check out my <a href="#work">awesome work</a>.
           </p>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
@@ -56,62 +68,76 @@ class Main extends React.Component {
         </article>
 
         <article
-          id="work"
-          className={`${this.props.article === 'work' ? 'active' : ''} ${
+          id="le bateau"
+          className={`${this.props.article === 'le bateau' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
-            }`}
+          }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
+          <h2 className="major">le bateau</h2>
           <span className="image main">
-            <img src={dolphin} alt="" />
+            <img
+              src={
+                ImagesVector[Math.floor(Math.random() * ImagesVector.length)]
+              }
+              alt=""
+            />
           </span>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+            Les minis 6.50 sont les plus petits bateaux de course au large au
+            monde. Pour ce projet, j’ai choisi de me faire construire un bateau
+            neuf, afin d’avoir un voilier de dernière génération que je pourrais
+            optimiser selon mes préférences. J’ai choisi un Vector 6.50 que j’ai
+            reçu en novembre 2019, designé par l’architecte Etienne Bertrand.
           </p>
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+            Chorus, c’est son nom de baptême, a la particularité d’avoir une
+            étrave ronde et puissante(carène scow dans le jargon) qui rend plus
+            performant aux allures portantes et de vent de travers.
           </p>
           {close}
         </article>
 
         <article
-          id="about"
-          className={`${this.props.article === 'about' ? 'active' : ''} ${
+          id="Valentin"
+          className={`${this.props.article === 'Valentin' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
-            }`}
+          }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About</h2>
+          <h2 className="major">Valentin</h2>
           <span className="image main">
-            <img src={val1} alt="" />
+            <img
+              src={ImagesVal[Math.floor(Math.random() * ImagesVal.length)]}
+              alt=""
+            />
           </span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+            Initié à la voile dès sa plus tendre enfance par des navigations en
+            famille sur le First 30 familial, Valentin devient vite passionné de
+            sports nautiques: voile, kitesurf, natation, wakeboard… C’est lors
+            de ses études à l’Ecole Polytechnique qu’il découvre le voile en
+            compétition sur Grand Surprise en participant entre autres à la
+            Coupe de France des Étudiants, au Challenge Spi Dauphine et à la
+            Coupe de Monde de Étudiants. Poussé par l’envie de vivre pleinement
+            sa passion et d'élargir ses horizons, Valentin se lance avec un ami
+            en 2016 dans un projet qui lui tenait à coeur: acheter un voilier et
+            faire le Tour de l’Atlantique. Cette expérience a été formatrice sur
+            bien des aspects: préparation hauturière d’un voilier, navigations
+            transatlantique, météorologie, gestion de situations à risque en
+            pleine mer. Aujourd’hui ingénieur en informatique, spécialisé en
+            mathématiques appliquées, il se lance dans un nouveau défi:
+            participer à une compétition de haut niveau et traverser
+            l’Atlantique en solitaire sur un voilier de 6m50.
           </p>
           {close}
         </article>
 
-        <article
+        {/* <article
           id="contact"
           className={`${this.props.article === 'contact' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
-            }`}
+          }`}
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
@@ -166,7 +192,7 @@ class Main extends React.Component {
             </li>
           </ul>
           {close}
-        </article>
+        </article> */}
       </div>
     )
   }
