@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: 'Mini 990 Valentin Foucher',
+    title: 'Mini 990 CHORUS Valentin Foucher',
     author: 'Valentin Foucher',
     description:
       'Voici le site de mon projet mini 6.50, en vue la la mini transat 2021',
-    titleTemplate: 'Mini 990 Valentin Foucher',
+    titleTemplate: 'Mini 990 CHORUS Valentin Foucher',
     siteUrl: 'https://www.mini990valentinfoucher.netlify.com',
     url: 'https://www.mini990valentinfoucher.netlify.com',
     image: 'src/images/logo.png',
