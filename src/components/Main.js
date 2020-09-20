@@ -104,20 +104,16 @@ class Main extends React.Component {
             />
           </span>
           <p>
-            Initié à la voile dès sa plus tendre enfance par des navigations en
-            famille sur le First 30 familial, Valentin devient vite passionné de
-            sports nautiques: voile, kitesurf, natation, wakeboard… C’est lors
-            de ses études à l’Ecole Polytechnique qu’il découvre le voile en
-            compétition sur Grand Surprise en participant entre autres à la
-            Coupe de France des Étudiants, au Challenge Spi Dauphine et à la
-            Coupe de Monde de Étudiants. Poussé par l’envie de vivre pleinement
-            sa passion et d'élargir ses horizons, Valentin se lance avec un ami
+            Je suis un passionné du monde marin et des
+            sports nautiques: voile, kitesurf, natation, wakeboard. Poussé par l’envie 
+            de vivre pleinement
+            ma passion et d'élargir mes horizons, je melance avec un ami
             en 2016 dans un projet qui lui tenait à coeur: acheter un voilier et
             faire le Tour de l’Atlantique. Cette expérience a été formatrice sur
             bien des aspects: préparation hauturière d’un voilier, navigations
             transatlantique, météorologie, gestion de situations à risque en
             pleine mer. Aujourd’hui ingénieur en informatique, spécialisé en
-            mathématiques appliquées, il se lance dans un nouveau défi:
+            mathématiques appliquées, je me lance dans un nouveau défi:
             participer à une compétition de haut niveau et traverser
             l’Atlantique en solitaire sur un voilier de 6m50.
           </p>
