@@ -29,13 +29,13 @@ class Main extends React.Component {
         style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}
       >
         <article
-          id="Le projet"
-          className={`${this.props.article === 'Le projet' ? 'active' : ''} ${
+          id="Mini Transat"
+          className={`${this.props.article === 'Mini Transat' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Projet</h2>
+          <h2 className="major">Mini Transat</h2>
           <span className="image main">
             <img
               src={
@@ -45,36 +45,27 @@ class Main extends React.Component {
             />
           </span>
           <p>
-            Aenean COUCOU, ac varius enim ullamcorper eu. Proin aliquam
-            facilisis ante interdum congue. Integer mollis, nisl amet convallis,
-            porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus
-            nisi nec lacinia. Nam maximus erat id euismod egestas. By the way,
-            check out my <a href="#work">awesome work</a>.
+          La Mini Transat 
+          est une course transatlantique en solitaire et sans assistance à
+           bord de voiliers de 6,50 m créée en 1977. 
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
+          En 2021, elle ralliera les Sables d’Olonne à 
+           Saint-François en Guadeloupe via une escale aux Iles Canaries 
+           pour une disatnce totale de 4000 miles nautiques
+          soit environs 7300km.
           </p>
           {close}
         </article>
 
         <article
-          id="le bateau"
-          className={`${this.props.article === 'le bateau' ? 'active' : ''} ${
+          id="Bateau"
+          className={`${this.props.article === 'Bateau' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">le bateau</h2>
+          <h2 className="major">Bateau</h2>
           <span className="image main">
             <img
               src={
@@ -99,13 +90,13 @@ class Main extends React.Component {
         </article>
 
         <article
-          id="Valentin"
-          className={`${this.props.article === 'Valentin' ? 'active' : ''} ${
+          id="Skipper"
+          className={`${this.props.article === 'Skipper' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Valentin</h2>
+          <h2 className="major">Skipper</h2>
           <span className="image main">
             <img
               src={ImagesVal[Math.floor(Math.random() * ImagesVal.length)]}

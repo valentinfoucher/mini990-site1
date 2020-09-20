@@ -15,38 +15,38 @@ const Header = props => (
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('Le projet')
+              props.onOpenArticle('Mini Transat')
             }}
           >
-            Le Projet
+            Mini Transat
           </button>
         </li>
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('le bateau')
+              props.onOpenArticle('Bateau')
             }}
           >
-            Le bateau
+            Bateau
           </button>
         </li>
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('Valentin')
+              props.onOpenArticle('Skipper')
             }}
           >
-            Valentin
+            Skipper
           </button>
         </li>
         <li>
-          {/* <button
+          <button
             onClick={() => {
-              props.onOpenArticle('contact')
+              props.onOpenArticle('Blog')
             }}
           >
-            Contact
-          </button> */}
+            Blog
+          </button>
         </li>
       </ul>
     </nav>
