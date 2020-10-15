@@ -26,8 +26,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://mini990valentinfoucher.netlify.com/',
-        sitemap: 'https://mini990valentinfoucher.netlify.com/sitemap.xml',
+        host: 'https://mini990chorus.netlify.app/',
+        sitemap: 'https://mini990chorus.netlify.app/sitemap.xml',
         env: {
           development: {
             policy: [
