@@ -42,7 +42,9 @@ const Header = props => (
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('Blog')
+              const blogUrl = 'https://mini990chorus-blog.netlify.app/';
+              window.open(blogUrl, '_blank');
+              //props.onOpenArticle('Blog')
             }}
           >
             Blog
