@@ -3,11 +3,14 @@ import React from 'react'
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
+        {/* <div className="logo">
+      <span className="icon fa-diamond"></span>
+    </div> */}
     <div className="content">
       <div className="inner">
         <h1>MINI 990 CHORUS</h1>
-        <p>Valentin Foucher</p>
-        <p>Objectif Mini Transat 2021</p>
+        <h2>Valentin Foucher</h2>
+        <h3>Objectif Mini Transat 2021</h3>
       </div>
     </div>
     <nav>

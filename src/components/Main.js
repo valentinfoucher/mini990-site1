@@ -1,12 +1,9 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import spinaker from '../images/spinaker.jpg'
 import vector1 from '../images/LeBateau/vector1.jpg'
-import val1 from '../images/skipper/val1.jpg'
-import val2 from '../images/skipper/val2.jpg'
 import val3 from '../images/skipper/val3.jpg'
 import projet1 from '../images/carte mini transat.png'
-const ImagesVal = [val1, val2, val3]
+const ImagesVal = [val3]
 const ImagesProjet = [projet1]
 const ImagesVector = [vector1]
 
@@ -107,18 +104,27 @@ class Main extends React.Component {
             />
           </span>
           <p>
-            Je suis un passionné du monde marin et des
-            sports nautiques: voile, kitesurf, natation, wakeboard. Poussé par l’envie 
-            de vivre pleinement
+            Valentin Foucher, 27 ans, ingénieur, je suis un passionné du monde marin et des
+            sports nautiques: voile, kitesurf, natation, wakeboard.
+            </p>
+            <p>
+             Poussé par l’envie de vivre pleinement
             ma passion et d'élargir mes horizons, je melance avec un ami
-            en 2016 dans un projet qui lui tenait à coeur: acheter un voilier et
-            faire le Tour de l’Atlantique. Cette expérience a été formatrice sur
+            en 2016 dans un projet qui me tenait à coeur, acheter un voilier et
+            faire le Tour de l’Atlantique. 
+            <br></br>
+            
+            Cette expérience a été formatrice sur
             bien des aspects: préparation hauturière d’un voilier, navigations
             transatlantique, météorologie, gestion de situations à risque en
-            pleine mer. Aujourd’hui ingénieur en informatique, spécialisé en
-            mathématiques appliquées, je me lance dans un nouveau défi:
-            participer à une compétition de haut niveau et traverser
+            pleine mer. 
+            </p>
+            <p>
+
+            Aujourd’hui je me lance dans un nouveau défi,
+            participer à une compétition sportive de haut niveau et traverser
             l’Atlantique en solitaire sur un voilier de 6m50.
+            C'est parti pour un deux années d'un projet incroyable fait d'entrainements, de préparation intense et de navigation.
           </p>
           {close}
         </article>
