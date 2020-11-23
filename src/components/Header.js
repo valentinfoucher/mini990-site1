@@ -56,6 +56,17 @@ const Header = props => (
         <li>
           <button
             onClick={() => {
+              const blogUrl = 'https://mini990chorus-instagram.netlify.app/';
+              window.open(blogUrl, '_blank');
+              //props.onOpenArticle('Blog')
+            }}
+          >
+            Instagram
+          </button>
+        </li>
+        <li>
+          <button
+            onClick={() => {
               props.onOpenArticle('contact')
             }}
           >
