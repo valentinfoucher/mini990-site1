@@ -5,10 +5,9 @@ import vector1 from '../images/LeBateau/vector1.jpg'
 import val1 from '../images/skipper/val1.jpg'
 import val2 from '../images/skipper/val2.jpg'
 import val3 from '../images/skipper/val3.jpg'
-import projet1 from '../images/LeProjet/projet1.jpg'
-import projet2 from '../images/LeProjet/projet2.jpg'
+import projet1 from '../images/carte mini transat.png'
 const ImagesVal = [val1, val2, val3]
-const ImagesProjet = [projet1, projet2]
+const ImagesProjet = [projet1]
 const ImagesVector = [vector1]
 
 class Main extends React.Component {
@@ -46,14 +45,18 @@ class Main extends React.Component {
           </span>
           <p>
           La Mini Transat 
-          est une course transatlantique en solitaire et sans assistance à
-           bord de voiliers de 6,50 m créée en 1977. 
+          est une course transatlantique en solitaire, sans assistance et sans communication avec la terre.
+          Elle se court à bord des mini 6.50, les plus petits bateaux de Course au Large.
           </p>
           <p>
           En 2021, elle ralliera les Sables d’Olonne à 
            Saint-François en Guadeloupe via une escale aux Iles Canaries 
            pour une disatnce totale de 4000 miles nautiques
           soit environs 7300km.
+          </p>
+          <p>
+          Mais avant de pouvoir s'alligner sur la ligne de départ de cette course mythique, 
+          il faut se qualifier, 1500 milles en course et 1000 milles hors course sont nécessaires. 
           </p>
           {close}
         </article>
