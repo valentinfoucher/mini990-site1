@@ -3,9 +3,11 @@ import React from 'react'
 import vector1 from '../images/LeBateau/vector1.jpg'
 import val3 from '../images/skipper/val3.jpg'
 import projet1 from '../images/carte mini transat.png'
-const ImagesVal = [val3]
-const ImagesProjet = [projet1]
-const ImagesVector = [vector1]
+import medocnautic from '../images/Partenaires/medocnautic.png'
+
+// const ImagesVal = [val3]
+// const ImagesProjet = [projet1]
+// const ImagesVector = [vector1]
 
 class Main extends React.Component {
   render() {
@@ -34,7 +36,7 @@ class Main extends React.Component {
           <span className="image main">
             <img
               src={
-                ImagesProjet[Math.floor(Math.random() * ImagesProjet.length)]
+                projet1
               }
               alt=""
             />
@@ -47,11 +49,11 @@ class Main extends React.Component {
           <p>
             En 2021, elle ralliera les Sables d’Olonne à
             Saint-François en Guadeloupe via une escale aux Iles Canaries
-            pour une disatnce totale de 4000 miles nautiques
-            soit environs 7300km.
+            pour une distance totale de 4000 miles nautiques
+            soit environ 7300km.
           </p>
           <p>
-            Mais avant de pouvoir s'alligner sur la ligne de départ de cette course mythique,
+            Mais avant de pouvoir s'aligner sur la ligne de départ de cette course mythique,
             il faut se qualifier, 1500 milles en course et 1000 milles hors course sont nécessaires.
           </p>
           {close}
@@ -67,7 +69,7 @@ class Main extends React.Component {
           <span className="image main">
             <img
               src={
-                ImagesVector[Math.floor(Math.random() * ImagesVector.length)]
+               vector1
               }
               alt=""
             />
@@ -90,12 +92,13 @@ class Main extends React.Component {
 
             Pour ce projet, j’ai choisi de me faire construire un bateau
             neuf, afin d’avoir un voilier de dernière génération que je pourrais
-            optimiser selon mes préférences.C'est un Vector 6.50 que j’ai
-            reçu en novembre 2019, designé par l’architecte Etienne Bertrand.
+            optimiser selon mes préférences.
+            C'est un Vector 6.50 que j’ai
+            reçu en novembre 2019, designé par l’architecte Etienne Bertrand et construit en Pologne.
           </p>
           <p>
             Chorus, c’est son nom de baptême, a la particularité d’avoir une
-            étrave ronde et puissante qui rend plus
+            étrave ronde et puissante qui le rend plus
             performant aux allures de vent de travers.
           </p>
           {close}
@@ -110,7 +113,7 @@ class Main extends React.Component {
           <h2 className="major">Skipper</h2>
           <span className="image main">
             <img
-              src={ImagesVal[Math.floor(Math.random() * ImagesVal.length)]}
+              src={val3}
               alt=""
             />
           </span>
@@ -135,11 +138,31 @@ class Main extends React.Component {
             Aujourd’hui je me lance dans un nouveau défi,
             participer à une compétition sportive de haut niveau et traverser
             l’Atlantique en solitaire sur un voilier de 6m50.
-            C'est parti pour un deux années d'un projet incroyable fait d'entrainements, de préparation intense et de navigation.
+            C'est parti pour deux années d'un projet incroyable fait d'entrainements, de préparation intense et de navigations.
           </p>
           {close}
         </article>
+        <article
+          id="Partenaires"
+          className={`${this.props.article === 'Partenaires' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''
+            }`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="major">Partenaires</h2>
+          <h3 className="major">Medoc Nautic</h3>
+          <span className="image">
+            <img
+              src={medocnautic}
+              alt=""
+            />
+          </span>
+          <p>
+          Situé sur la commune de Carcans, entre les lacs de Lacanau et d'Hourtin, Medoc Nautic est un chantier naval qui propose des services de 
+          motorisation, accastillage de plaisance, vente de materiel nautique, gardiennage, manutention, peinture, renflouement.
 
+          </p>
+          {close}
+        </article>
         <article
           id="contact"
           className={`${this.props.article === 'contact' ? 'active' : ''} ${
