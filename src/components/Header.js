@@ -10,7 +10,7 @@ const Header = props => (
       <div className="inner">
         <h1>MINI 990 CHORUS</h1>
         <h2>Valentin Foucher</h2>
-        <h3>Objectif Mini Transat 2021</h3>
+        <h4>Objectif Mini Transat 2021: Traverser l'Atlantique en solitaire et en course sur un voilier de 6m50</h4>
       </div>
     </div>
     <nav>
