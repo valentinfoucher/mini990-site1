@@ -48,13 +48,14 @@ class Main extends React.Component {
           </p>
           <p>
             En 2021, elle ralliera les Sables d’Olonne à
-            Saint-François en Guadeloupe via une escale aux Iles Canaries
-            pour une distance totale de 4000 miles nautiques
-            soit environ 7300km.
+            Saint-François en Guadeloupe, après une escale aux Iles Canaries.
+            C'est donc pour une course transatlantique de 4000 miles nautiques (plus de 5000 kms) que les concurrents 
+            embarqueront.
+            
           </p>
           <p>
-            Mais avant de pouvoir s'aligner sur la ligne de départ de cette course mythique,
-            il faut se qualifier, 1500 milles en course et 1000 milles hors course sont nécessaires.
+            Avant de pouvoir se présenter sur la ligne de départ,
+            il faut d'abord se qualifier au terme d'un exigeant programme de tests, formations, courses et navigations.
           </p>
           {close}
         </article>
@@ -75,7 +76,7 @@ class Main extends React.Component {
             />
           </span>
           <p>
-            Les minis 6.50 sont les plus petits bateaux de course au large au
+            Les minis 6.50 sont les plus petits bateaux de course au large du
             monde.
             <br></br>
             En voici quelques caractéristiques techniques:
@@ -91,13 +92,13 @@ class Main extends React.Component {
             
 
             Pour ce projet, j’ai choisi de me faire construire un bateau
-            neuf, afin d’avoir un voilier de dernière génération que je pourrais
-            optimiser selon mes préférences.
+            neuf, afin d’avoir un voilier de dernière génération pouvant être équipé et 
+            optimisé selon mes préférences.
             C'est un Vector 6.50 que j’ai
-            reçu en novembre 2019, designé par l’architecte Etienne Bertrand et construit en Pologne.
+            reçu en novembre 2019, dessiné par l’architecte Etienne Bertrand et construit en Pologne.
           </p>
           <p>
-            Chorus, c’est son nom de baptême, a la particularité d’avoir une
+            Chorus a la particularité d’avoir une
             étrave ronde et puissante qui le rend plus
             performant aux allures de vent de travers.
           </p>
@@ -123,23 +124,22 @@ class Main extends React.Component {
             </p>
           <p>
             Poussé par l’envie de vivre pleinement
-            ma passion et d'élargir mes horizons, je melance avec un ami
-            en 2016 dans un projet qui me tenait à coeur, acheter un voilier et
-            faire le Tour de l’Atlantique.
+            ma passion et d'élargir mes horizons, en 2016, j'ai avec un ami
+            acheté un voilier à bord duquel nous avons effectué un tour de l'Atlantique en 9 mois.
+            
             <br></br>
 
-            Cette expérience a été formatrice sur
-            bien des aspects: préparation hauturière d’un voilier, navigations
-            transatlantique, météorologie, gestion de situations à risque en
-            pleine mer.
+            Cette expérience a été formidablement formatrice: équipement et préparation technique du bateau, 
+            navigations transatlantiques, météorologie, gestion de situations à risque en
+            pleine mer, rencontres.
             </p>
           <p>
 
-            Aujourd’hui je me lance dans un nouveau défi,
+            Je me lance aujourd'hui un nouveau défi,
             participer à une compétition sportive de haut niveau et traverser
             l’Atlantique en solitaire sur un voilier de 6m50.
-            C'est parti pour deux années d'un projet incroyable fait d'entrainements, de préparation intense et de navigations.
-          </p>
+            C'est donc parti pour deux années de formations et d'entrainements intenses.
+            Objectif: figurer sur la ligne de départ de la Mini Transat à l'automne 2021.</p>
           {close}
         </article>
         <article
@@ -157,9 +157,10 @@ class Main extends React.Component {
             />
           </span>
           <p>
-          Situé sur la commune de Carcans, entre les lacs de Lacanau et d'Hourtin, Medoc Nautic est un chantier naval qui propose des services de 
-          motorisation, accastillage de plaisance, vente de materiel nautique, gardiennage, manutention, peinture, renflouement.
-
+          Situé sur la commune de Carcans, entre les lacs de Lacanau et d'Hourtin, Medoc Nautic
+          est un chantier naval qui propose un large panel de services: 
+          motorisation, voiliers, vente d'accastillage de plaisance,  peinture et vernis, gardiennage et manutention, renflouement.
+          
           </p>
           {close}
         </article>
@@ -171,10 +172,11 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <p>N'hesitez pas à me contacter, voici mon mail <i>valentinfoucher93@gmail.com</i>.
+          <p>N'hesitez pas à me contacterpar email <i>valentinfoucher93@gmail.com</i>.
           <br/>
-          Si vous passez à La Rochelle, vous pourrez nous trouver au ponton 2 du Port des Minimes, 
-          si vous voulez visiter le bateau ou échanger sur le projet.
+          Venez me rencontrer à La Rochelle, vous me trouverez au ponton 2 du Port des Minimes, 
+          vous pourrez visiter le bateau ou échanger sur le projet.
+          N'hésitez pas à lire mon blog et à vous abonner à la newsletter.
 
           
           </p>
