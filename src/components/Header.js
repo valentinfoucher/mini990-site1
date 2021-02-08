@@ -55,6 +55,17 @@ const Header = props => (
         </li>
         <li>
           <button
+            onClick={() => {const blogUrl = 'https://www.youtube.com/channel/UC0YuNK2dDCcCPtzNC8UlgtA';
+              window.open(blogUrl, '_blank');
+              //props.onOpenArticle('Blog')
+            }}
+          >
+            Videos
+          </button>
+        </li>
+
+        <li>
+          <button
             onClick={() => {
               const blogUrl = 'https://mini990chorus-instagram.netlify.app/';
               window.open(blogUrl, '_blank');
